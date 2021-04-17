@@ -883,7 +883,7 @@ function Base() {
         }
 
         // 设置加载主题信息
-        function setTheme() {
+        //function setTheme() {
             $('#themeInfo').html('Theme version: <a href="'+lHref
                 +'" target="_blank" style="color: #888;text-decoration: underline;">'
                 +(window.cnblogsConfig.CnVersions).substring(0,7)+'</a>'
